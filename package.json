@@ -5,10 +5,14 @@
 	"icon": "assets/icon.png",
 	"author": "Hirohito Kato",
 	"publisher": "hkato193",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"license": "MIT",
 	"keywords": [
-		"statistics", "average", "summary", "sum", "max"
+		"statistics",
+		"average",
+		"summary",
+		"sum",
+		"max"
 	],
 	"categories": [
 		"Other"
@@ -16,11 +20,11 @@
 	"bugs": {
 		"url": "https://github.com/hirohitokato/stats-on-statusbar/issues",
 		"email": "smcbreen@microsoft.com"
-	  },
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/hirohitokato/stats-on-statusbar.git"
-	  },
+	},
 	"homepage": "https://github.com/hirohitokato/stats-on-statusbar",
 	"engines": {
 		"vscode": "^1.52.0"
