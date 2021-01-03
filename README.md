@@ -34,7 +34,7 @@ To toggle enable / disable of this, click 📊 icon or information area on the s
 
 ## Known Issues
 
-* Please let me know via [Issues](https://github.com/hirohitokato/stats-on-statusbar/issues)
+* Please let me know as [an issue](https://github.com/hirohitokato/stats-on-statusbar/issues).
 
 ## Release Notes
 
