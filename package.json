@@ -18,8 +18,7 @@
 		"Other"
 	],
 	"bugs": {
-		"url": "https://github.com/hirohitokato/stats-on-statusbar/issues",
-		"email": "smcbreen@microsoft.com"
+		"url": "https://github.com/hirohitokato/stats-on-statusbar/issues"
 	},
 	"repository": {
 		"type": "git",
