@@ -4,7 +4,7 @@ A Visual Studio Code extension to quickly show the statistics of numbers in the 
 
 ## Features
 
-![animation]\(images/feature-x.png\)
+![animation](https://github.com/hirohitokato/myAssets/raw/main/stats-on-statusbar/demo.gif)
 
 Shows the following statistics information on the status bar, of the numbers included in your selected text.
 
