@@ -1,65 +1,43 @@
-# jp-katohirohito-extension-vscode-stat-in-statusbar README
+# Quick stats on statusbar 📊
 
-This is the README for your extension "jp-katohirohito-extension-vscode-stat-in-statusbar". After writing up a brief description, we recommend including the following sections.
+A Visual Studio Code extension to quickly show the statistics of numbers in the selected text.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+![animation]\(images/feature-x.png\)
 
-For example if there is an image subfolder under your extension project workspace:
+Shows the following statistics information on the status bar, of the numbers included in your selected text.
 
-\!\[feature X\]\(images/feature-x.png\)
+* maximum value
+* minimum value
+* sum
+* average
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+To quickly see how numbers in selected text add up, take a look at the status bar below your editor.
+
+When you select text that contains numeric data, the extension automatically summarizes that data and shows these values on the status bar. The extension also automatically extract numbers in the text.
+
+* `1, 3 4 5` → 1, 3, 4, 5 will be extracted
+* `On July 15, 2003 the Japanese Wikipedia reached 10000 articles, four months and three days after the 1000-article milestone, beating the time it took the English Wikipedia to achieve the same feat.` → 15, 2003, 10000, 1000 will be extracted
+
+These values update immediately when you select a different range of text.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Nothing.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+Nothing.
 
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+To toggle enable / disable of this, click 📊 icon or information area on the status bar.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+*
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+See the [CHANGELOG.md](CHANGELOG.md).
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Enjoy!

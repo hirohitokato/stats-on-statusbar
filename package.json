@@ -1,8 +1,8 @@
 {
-	"name": "jp-katohirohito-extension-vscode-stat-in-statusbar",
-	"displayName": "statistics in statusbar",
-	"description": "show statistics of selected numbers in a status bar.",
-	"version": "0.0.1",
+	"name": "jp-katohirohito-extension-vscode-stat-on-statusbar",
+	"displayName": "Quick stats on statusbar",
+	"description": "Show statistics(max/min/sum/average) of numbers in the selected text on the status bar.",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.52.0"
 	},
