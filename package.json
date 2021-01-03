@@ -2,13 +2,29 @@
 	"name": "jp-katohirohito-extension-vscode-stat-on-statusbar",
 	"displayName": "Quick stats on statusbar",
 	"description": "Show statistics(max/min/sum/average) of numbers in the selected text on the status bar.",
+	"icon": "assets/icon.png",
+	"author": "Hirohito Kato",
+	"publisher": "hkato193",
 	"version": "1.0.0",
-	"engines": {
-		"vscode": "^1.52.0"
-	},
+	"license": "MIT",
+	"keywords": [
+		"statistics", "average", "summary", "sum", "max"
+	],
 	"categories": [
 		"Other"
 	],
+	"bugs": {
+		"url": "https://github.com/hirohitokato/stats-on-statusbar/issues",
+		"email": "smcbreen@microsoft.com"
+	  },
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hirohitokato/stats-on-statusbar.git"
+	  },
+	"homepage": "https://github.com/hirohitokato/stats-on-statusbar",
+	"engines": {
+		"vscode": "^1.52.0"
+	},
 	"activationEvents": [
 		"*"
 	],
